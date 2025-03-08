@@ -1,0 +1,41 @@
+.register_examName {
+    font-weight: bold;
+    /* color: black; */
+    font-size: 2rem;
+}
+.register_greetings {
+    font-size: 1.5rem;
+}
+.register_formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.register_formBtns {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.register_success {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 0px) and (max-width: 565px) {
+    .register_examName {
+        font-size: 25px;
+    }
+    .register_greetings {
+        font-size: 22px;
+    }
+    .register_formContainer{
+        width: 100%;
+        height: 100%;
+    }
+}

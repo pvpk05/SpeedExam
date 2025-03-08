@@ -1,0 +1,88 @@
+
+/* Header */
+#Global_takeExam_header_cont {
+    background-color: #0b7874;
+    /* background-color: #00142e; */
+    width: 100%;
+    height: 65px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exam_timerCountdown {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.Global_takeExam_queBankCont_heading {
+    display: flex;
+    justify-content: space-between; /* Space between question and buttons */
+    align-items: right; /* Align items vertically */
+    padding: 10px 15px;
+    font-size: 18px;
+    /* color: #999; */
+}
+
+.Global_currentQue_container {
+    width: 100%;
+    height: 92%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.Global_questions_statusCont {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(207 234 245);;
+    padding: 20px 40px;
+    padding-bottom: "30px";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Global_quesStatus_cont {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.Global_queAnswered_nums {
+    width: 25px;
+    height: 25px;
+    /* background-color: #0b7874; */
+    color: #fff;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.Global_questions_numbersCont {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgb(207 234 245);;
+    padding: 10px 10px;
+    overflow: auto
+}
+.Global_questionNums {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    margin: 6px;
+    border-radius: 30%;
+}
+.Global_highlight {
+    border: 2px solid #0b7874;
+    color: black;
+    font-weight: bold;
+}
+
+.currentQuestion{
+    
+}
